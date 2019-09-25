@@ -1,4 +1,4 @@
-# flutter_inspiration_app_ui
+# Flutter Inspiration App UI Design
 
 A new Flutter project.
 
