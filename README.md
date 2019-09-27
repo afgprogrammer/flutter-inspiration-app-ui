@@ -1,9 +1,9 @@
 # Flutter Inspiration App UI Design
 
 Flutter Inspiration App UI design - day 1 #flutter.
-This repository is a part of the 100-day design in Flutter.
+<p>This repository is a part of the 100-day design in Flutter.</p>
 
-In this video we use, Flutter AspectRatio, ListView, LinearGradient and so on in the one-speed video.
+<p>In this video we use, Flutter AspectRatio, ListView, LinearGradient and so on in the one-speed video.</p>
 
 [Youtube Video](https://youtu.be/zTTP8XBR6fI)
 
