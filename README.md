@@ -1,14 +1,28 @@
-# Flutter Inspiration App UI Design
+## Flutter Inspiration App UI Design
 
-Flutter Inspiration App UI design - day 1 #flutter.
-<p>This repository is a part of the 100-day design in Flutter.</p>
+A part of #flutter100daysofcode. Let's create a beautiful Inspiration Application UI with Flutter.
 
-<p>In this video we use, Flutter AspectRatio, ListView, LinearGradient and so on in the one-speed video.</p>
+### [Watch it on Youtube](https://youtu.be/zTTP8XBR6fI)
 
-[Youtube Video](https://youtu.be/zTTP8XBR6fI)
-
-## ScreenShot
-
-<img src="assets/screenshot/one.png" height="500em" /><img src="assets/screenshot/two.png" height="500em" />
+## Previous Designs
+[Checkout my Youtube channel](https://youtube.com/afgprogrammer)
 
 
+## Development Setup
+Clone the repository and run the following commands:
+```
+flutter pub get
+flutter run
+```
+
+## ScreenShots
+
+<img src="assets/screenshot/one.png" height="500em" /> &nbsp; <img src="assets/screenshot/two.png" height="500em" />
+
+
+## Links
+
+* [Website](https://afgprogrammer.com)
+* [Youtube channel](https://youtube.com/afgprogrammer)
+* [Twitter](https://twitter.com/afgprogrammer)
+* [Instagram](https://instagram.com/afgprogrammer)
