@@ -1,7 +1,17 @@
-## Flutter Inspiration App UI Design
+## Flutter Inspiration App UI Design - Day 1
 
-A part of #flutter100daysofcode. Let's create a beautiful Inspiration Application UI with Flutter.
-
+```dart
+class Day1 extends Flutter100DaysOfCode {
+  video() {
+    return {
+      "title": "Flutter Inspiration App UI Design",
+      "description": "Let's work with ListView in an example application.",
+      "day": 1,
+      "videoLink": "https://youtu.be/zTTP8XBR6fI"
+    }
+  }
+}
+```
 ### [Watch it on Youtube](https://youtu.be/zTTP8XBR6fI)
 
 ## Previous Designs
