@@ -39,18 +39,26 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
-<body>
+<body style="width: 100%; height: 100%;">
+  <div id="loading" style="margin: auto;height: 100vh; display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <span></span>
+    <div class="loader"></div>
+  </div>
+
   <script>
     window.addEventListener('load', function(ev) {
-      // Download main.dart.js
+      var loading = document.querySelector('#loading').firstChild;
+      loading.textContent = "Loading entrypoint...";
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
+        onEntrypointLoaded: async function(engineInitializer) {
+          loading.textContent = "Initializing engine...";
+          let appRunner = await engineInitializer.initializeEngine();
+
+          loading.textContent = "Running app...";
+          await appRunner.runApp();
         }
       });
     });
